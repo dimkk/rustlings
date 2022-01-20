@@ -33,7 +33,7 @@ fn main() {
 }
 
 pub fn create_empty_list() -> List {
-    unimplemented!()
+    Cons(1, Nil)
 }
 
 pub fn create_non_empty_list() -> List {
